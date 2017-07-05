@@ -9,7 +9,7 @@ Build-Depends: debhelper (>= 10),
                libgcrypt20-dev,
                pkg-config,
                uuid-dev
-Standards-Version: 4.0.0
+Standards-Version: 3.9.8
 Homepage: https://github.com/mhogomchungu/zuluplay
 Vcs-Git: https://github.com/marciosouza20/zuluplay.git
 Vcs-Browser: https://github.com/marciosouza20/zuluplay.git
