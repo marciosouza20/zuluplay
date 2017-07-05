@@ -1,0 +1,4 @@
+usr/include/zuluplay_api.h
+usr/lib/*/pkgconfig/zuluplay.pc
+usr/lib/*/libzuluplay.so
+usr/share/man/man3/zuluplay.3

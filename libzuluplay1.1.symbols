@@ -1,0 +1,13 @@
+libzuluplay.so.1.1 libzuluplay1.1 #MINVER#
+ tc_api_cipher_iterate@Base 1.1
+ tc_api_close_mapper@Base 1.1
+ tc_api_get_volume_type@Base 1.1
+ tc_api_has@Base 1.1
+ tc_api_init@Base 1.1
+ tc_api_prf_iterate@Base 1.1
+ tc_api_task_do@Base 1.1
+ tc_api_task_info_get@Base 1.1
+ tc_api_task_init@Base 1.1
+ tc_api_task_set@Base 1.1
+ tc_api_task_uninit@Base 1.1
+ tc_api_uninit@Base 1.1

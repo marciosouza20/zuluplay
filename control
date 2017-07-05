@@ -1,0 +1,70 @@
+Source: zuluplay
+Section: admin
+Priority: optional
+Maintainer: Marcio de Souza Oliveira <m.desouza20@gmail.com>
+Build-Depends: debhelper (>= 10),
+               cmake,
+               libdevmapper-dev,
+               libudev-dev,
+               libgcrypt20-dev,
+               pkg-config,
+               uuid-dev
+Standards-Version: 4.0.0
+Homepage: https://github.com/mhogomchungu/zuluplay
+Vcs-Git: https://github.com/marciosouza20/zuluplay.git
+Vcs-Browser: https://github.com/marciosouza20/zuluplay.git
+
+Package: zuluplay
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Replaces: tcplay
+Description: tool for management TrueCrypt/VeraCrypt volumes
+ zuluplay is a fork the tcplay with support for VeraCrypt volumes.
+ zuluplay is a free (BSD-licensed), pretty much fully featured
+ (including multiple keyfiles, cipher cascades, etc) and stable
+ TrueCrypt/VeraCrypt implementation.
+ .
+ This implementation supports mapping (opening) both system and normal
+ TrueCrypt/VeraCrypt volumes, as well as opening hidden volumes and
+ opening an outer volume while protecting a hidden volume.
+ There is also support to create volumes, including hidden volumes, etc.
+ .
+ Since zuluplay uses dm-crypt it makes full use of any available hardware
+ encryption/decryption support once the volume has been mapped.
+
+Package: libzuluplay1.1
+Architecture: any
+Section: libs
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Replaces: libtcplay
+Description: provide the main functions of zuluplay
+ zuluplay is a fork the tcplay with support for VeraCrypt volumes.
+ zuluplay is a free (BSD-licensed), pretty much fully featured
+ (including multiple keyfiles, cipher cascades, etc) and stable
+ TrueCrypt/VeraCrypt implementation.
+ .
+ This implementation supports mapping (opening) both system and normal
+ TrueCrypt/VeraCrypt volumes, as well as opening hidden volumes and
+ opening an outer volume while protecting a hidden volume.
+ There is also support to create volumes, including hidden volumes, etc.
+ .
+ This package contains the library libzuluplay that provide the main
+ functions the zuluplay.
+
+Package: libzuluplay-dev
+Architecture: any
+Section: libdevel
+Depends: ${shlibs:Depends}, ${misc:Depends}, libzuluplay1.1 (= ${binary:Version})
+Replaces: libtcplay-dev
+Description: development files for the libzuluplay
+ zuluplay is a fork the tcplay with support for VeraCrypt volumes.
+ zuluplay is a free (BSD-licensed), pretty much fully featured
+ (including multiple keyfiles, cipher cascades, etc) and stable
+ TrueCrypt/VeraCrypt implementation.
+ .
+ This implementation supports mapping (opening) both system and normal
+ TrueCrypt/VeraCrypt volumes, as well as opening hidden volumes and
+ opening an outer volume while protecting a hidden volume.
+ There is also support to create volumes, including hidden volumes, etc.
+ .
+ This package contains the development files the library libzuluplay.

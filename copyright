@@ -1,0 +1,74 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: zuluplay
+Source: https://github.com/mhogomchungu/zuluplay
+
+Files: *
+Copyright: 2011      Alex Hornung <alex@alexhornung.com>
+           2016-2017 Francis Banyikwa <mhogomchungu@gmail.com>
+License: BSD-2-clause
+
+Files: debian/*
+Copyright: 2017 Marcio de Souza Oliveira <m.desouza20@gmail.com>
+License: BSD-2-clause
+
+Files: crc32.c
+       crc32.h
+Copyright: 1986 Gary S. Brown
+License: public-domain
+
+Files: generic_xts.c
+       generic_xts.h
+Copyright: 2008 Damien Miller
+           2011 Alex Hornung <alex@alexhornung.com>
+License: special
+
+Files: zuluplay.3
+       zuluplay.8
+Copyright: 2011 The DragonFly Project
+License: BSD-3-clause
+
+License: public-domain
+ You may use this program, or code or tables extracted from it, as desired
+ without restriction.
+
+License: special
+ Permission to use, copy, and modify this software with or without fee
+ is hereby granted, provided that this entire notice is included in
+ all copies of any software which is or includes a copy or
+ modification of this software.
+ .
+ You may use this code under GNU General Public License if you so wish. Please
+ contribute changes back to the authors under this freer than GPL license
+ so that we may further the use of strong encryption without limitations to
+ all.
+ .
+ THIS SOFTWARE IS BEING PROVIDED "AS IS", WITHOUT ANY EXPRESS OR
+ IMPLIED WARRANTY. IN PARTICULAR, NONE OF THE AUTHORS MAKES ANY
+ REPRESENTATION OR WARRANTY OF ANY KIND CONCERNING THE
+ MERCHANTABILITY OF THIS SOFTWARE OR ITS FITNESS FOR ANY PARTICULAR
+ PURPOSE.
+
+License: BSD-2-Clause or BSD-3-Clause
+ Redistribution and use in source and binary forms, with or without
+ modification, are permitted provided that the following conditions
+ are met:
+ 1. Redistributions of source code must retain the above copyright
+    notice, this list of conditions and the following disclaimer.
+ 2. Redistributions in binary form must reproduce the above copyright
+    notice, this list of conditions and the following disclaimer in the
+    documentation and/or other materials provided with the distribution.
+ 3. Neither the name of the University nor the names of its contributors
+    may be used to endorse or promote products derived from this software
+    without specific prior written permission.
+ .
+ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
+ ``AS IS'' AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT 
+ LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR 
+ A PARTICULAR PURPOSE ARE DISCLAIMED.  IN NO EVENT SHALL THE HOLDERS OR
+ CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, 
+ EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, 
+ PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR 
+ PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF 
+ LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING 
+ NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS 
+ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.

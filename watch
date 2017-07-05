@@ -1,0 +1,2 @@
+version=4
+https://github.com/mhogomchungu/zuluplay/releases/ .*zuluplay-(.*[0-9])\b\.(?:tgz|tar\.(?:gz|bz2|xz))
