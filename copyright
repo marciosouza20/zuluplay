@@ -8,7 +8,7 @@ Copyright: 2011      Alex Hornung <alex@alexhornung.com>
 License: BSD-2-clause
 
 Files: debian/*
-Copyright: 2017 Marcio de Souza Oliveira <m.desouza20@gmail.com>
+Copyright: 2018 Marcio de Souza Oliveira <m.desouza20@gmail.com>
 License: BSD-2-clause
 
 Files: crc32.c

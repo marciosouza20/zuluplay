@@ -17,6 +17,7 @@ Vcs-Browser: https://github.com/marciosouza20/zuluplay.git
 Package: zuluplay
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
+Conflicts: tcplay
 Replaces: tcplay
 Description: tool for management TrueCrypt/VeraCrypt volumes
  zuluplay is a fork the tcplay with support for VeraCrypt volumes.
@@ -36,6 +37,7 @@ Package: libzuluplay1.1
 Architecture: any
 Section: libs
 Depends: ${shlibs:Depends}, ${misc:Depends}
+Conflicts: libtcplay
 Replaces: libtcplay
 Description: provide the main functions of zuluplay
  zuluplay is a fork the tcplay with support for VeraCrypt volumes.
@@ -55,6 +57,7 @@ Package: libzuluplay-dev
 Architecture: any
 Section: libdevel
 Depends: ${shlibs:Depends}, ${misc:Depends}, libzuluplay1.1 (= ${binary:Version})
+Conflicts: libtcplay-dev
 Replaces: libtcplay-dev
 Description: development files for the libzuluplay
  zuluplay is a fork the tcplay with support for VeraCrypt volumes.
